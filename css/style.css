@@ -104,6 +104,9 @@ body {
 .u-margin-bottom-small {
   margin-bottom: 1.5rem; }
 
+.u-margin-top-huge {
+  margin-top: 10rem; }
+
 .u-margin-top-big {
   margin-top: 8rem; }
 
@@ -321,6 +324,48 @@ body {
     font-size: 6rem;
     font-weight: 100; }
 
+.story {
+  width: 75%;
+  margin: 0 auto;
+  box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
+  background-color: #FFFFFF;
+  border-radius: 3px;
+  padding: 6rem;
+  padding-left: 9rem;
+  font-size: 1.6rem;
+  transform: skewX(-12deg); }
+  .story > * {
+    transform: skewX(12deg); }
+  .story__shape {
+    width: 15rem;
+    height: 15rem;
+    float: left;
+    -webkit-shape-outside: circle(50% at 50% 50%);
+    shape-outside: circle(50% at 50% 50%);
+    -webkit-clip-path: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%);
+    transform: skewX(12deg) translateX(-3rem);
+    position: relative; }
+  .story__image {
+    height: 100%;
+    transform: translateX(-4rem) skew(1.8); }
+  .story__caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 20%);
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 1.7rem;
+    text-align: center;
+    opacity: 0;
+    transition: all .8s; }
+  .story:hover .story__caption {
+    opacity: 1;
+    transform: translate(-50%, -50%); }
+  .story:hover .story__image {
+    transform: translateX(-4rem) skew(1); }
+
 .row {
   max-width: 114rem;
   margin: 0 auto; }
@@ -387,3 +432,7 @@ body {
   background-color: #f7f7f7;
   padding: 35rem 0 15rem 0;
   margin-top: -12rem; }
+
+.section-stories {
+  background-color: #f7f7f7;
+  padding: 15rem 0; }
