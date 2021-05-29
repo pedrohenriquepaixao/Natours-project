@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/icon-font.css">
+        <!--<link rel="stylesheet" href="css/icon-font.css">-->
         <link rel="stylesheet" href="./css/style.css">
         <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
         <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
@@ -67,9 +67,31 @@
     
                     <div class="col-1-of-2">
                         <div class="composition">
-                            <img src="./img/nat-1-large.jpg" alt="Photo nat 1" class="composition__photo composition__photo--p1">
-                            <img src="./img/nat-2-large.jpg" alt="Photo nat 2" class="composition__photo composition__photo--p2">
-                            <img src="./img/nat-3-large.jpg" alt="Photo nat 3" class="composition__photo composition__photo--p3">
+                            <img 
+                            sizes="(max-width: 56.25rem)20vw, (max-width:37.5rem) 30vw,300px"
+                                srcset="./img/nat-1.jpg 300w,./img/nat-1-large.jpg 1000w" 
+                                src="./img/nat-1-large.jpg"
+                                alt="Photo nat 1" 
+                                class="composition__photo composition__photo--p1"
+                            />
+                            <img 
+                            sizes="(max-width: 56.25rem)20vw, (max-width:37.5rem) 30vw,300px"
+                                srcset="./img/nat-2.jpg 300w,./img/nat-2-large.jpg 1000w" 
+                                src="./img/nat-2-large.jpg"
+                                alt="Photo nat 2" 
+                                class="composition__photo composition__photo--p2"
+                            />
+                            <img 
+                            sizes="(max-width: 56.25rem)20vw, (max-width:37.5rem) 30vw,300px"
+                                srcset="./img/nat-3.jpg 300w,./img/nat-3-large.jpg 1000w" 
+                                src="./img/nat-3-large.jpg"
+                                alt="Photo nat 3" 
+                                class="composition__photo composition__photo--p3"
+                            />
+                            <!--
+                                <img src="./img/nat-2-large.jpg" alt="Photo nat 2" class="composition__photo composition__photo--p2">
+                                <img src="./img/nat-3-large.jpg" alt="Photo nat 3" class="composition__photo composition__photo--p3">
+                            -->
                         </div>
                     </div>
                 </div>
@@ -330,7 +352,7 @@
             <div class="footer__logo-box">
                 <picture class="footer__logo">
                     <source srcset="./img/logo-green-small-1x.png 1x, ./img/logo-green-small-2x.png 1x" media="(max-width: 37.5em)">
-                    <img srcset="./img/logo-green-1x.png 1x, ./img/logo-green-2x.png 2x" alt="Logo natours">
+                    <img srcset="./img/logo-green-1x.png 1x, ./img/logo-green-2x.png 2x" src="./img/logo-green-2x.png" alt="Logo natours">
                 </picture>
             </div>
             <div class="row">
