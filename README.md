@@ -60,13 +60,13 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 - <b>Versão Desktop</b>
   
-![Image Exemplo](./img/desktop.gif)
+![Image Exemplo](./img/desktop-min.gif)
 
 <hr>
 
 - <b>Versão Mobile</b>
 
-![Image Exemplo](./img/mobile.gif)
+![Image Exemplo](./img/mobile-min.gif)
 
 <hr>
 
