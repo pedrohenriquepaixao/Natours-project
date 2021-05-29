@@ -1,22 +1,10 @@
 # Natours-project
 
-
 <center>
 
-- <b>Versão Desktop</b>
-  
-![Image Exemplo](./img/desktop.gif)
-
-<hr>
-
-- <b>Versão Mobile</b>
-
-![Image Exemplo](./img/mobile.gif)
-
-<hr>
+![Image Exemplo](./img/Desktop-big.png)
 
 </center>
-
 <p align='center'>Landpage desenvolvida no curso Advanced CSS and SASS.</p>
 
 <!--ts-->
@@ -65,6 +53,24 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [SASS](https://sass-lang.com/)
+
+### 📱 Demo
+
+<center>
+
+- <b>Versão Desktop</b>
+  
+![Image Exemplo](./img/desktop.gif)
+
+<hr>
+
+- <b>Versão Mobile</b>
+
+![Image Exemplo](./img/mobile.gif)
+
+<hr>
+
+</center>
 
 ### 💻 Pattern
 
